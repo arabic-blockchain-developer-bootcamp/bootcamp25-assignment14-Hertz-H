@@ -2,6 +2,7 @@
 pragma solidity ^0.8.19;
 
 contract Vault {
+    //public states variales can be treated as function 
     mapping(address => uint256) public balances;
 
     // Deposit ETH into the vault
