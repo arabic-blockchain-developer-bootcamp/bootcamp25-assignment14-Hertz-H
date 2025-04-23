@@ -31,3 +31,11 @@ ex: `forge test --mp ./test/Vault2.t.sol`
 
 `forge test --mt TestMethodName`
 ex: `forge test --mt testDeposite`
+
+### Other related Tests commands:
+
+`forge coverage`
+
+### provide details about test failer:
+
+`forge test -vvv`
